@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Temperature Converter</h2><br>
+        <h4 id="myheading"> ** Celsius To Fahrenheit **</h4>
+        <div class="tempperature">
+            <label>Enter Degree :</label>
+            <input type="text" name="num" id="num"><br>
+            <label>Select Your Choice :</label>
+            <select id="selecttemp">
+                <option id="cel" value="cel">Celsius (°C)</option>
+                <option id="fah" value="fah">Fahrenheit (°F)</option>
+            </select><br><br>
+            <input type="submit" name="btnconvert" value="Convert" id="btnconvert" class="btnconvert">
+            <input type="button" name="btnconvert1" value="Reset" class="btnconvert" id="reset">
+            <div class="result">
+                <p id="tempans"></p>
+            </div>
+        </div>
+    </div>
+
+   <script src="main.js"></script>
+</body>
+
+</html>

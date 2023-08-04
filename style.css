@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('bg.jpg');
+    color: rgb(8, 51, 62);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    background-color: rgb(246, 248, 248);
+    text-align: center;
+    display: inline-block;
+    margin-top: 10rem;
+    margin-left: 45rem;
+   
+  
+}
+.container h2 ,h4{
+font-size: 3rem;
+margin-top: 1.5rem;
+}
+.tempperature
+{
+    padding-left: 9rem ;
+    padding-right: 9rem;
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+   text-align: center;
+   
+
+}
+.tempperature input ,label ,select
+{
+      font-size: 2rem;
+      margin-top: 2rem;
+      text-align: left;
+}
+.btnconvert
+{
+     padding: 1rem;
+     margin-left: 4rem;
+     background-color: rgb(20, 41, 21);
+     color: white;
+     border-radius: 2rem solid rgb(20, 41, 21);
+     text-align: center;
+    
+}
+#tempans
+{
+    text-align: left;
+    padding: 2rem;
+    color:darkgreen;
+}
+.result p
+{
+     padding: 2rem;
+     font-size: 2.5rem;
+   
+}
+
+@media screen and (min-width: 900px) {
+    html{
+        font-size: 65%;
+         /* 1rem 16px 100%
+         10 */
+     
+    }
+}
+@media screen and (max-width: 680px) {
+    html{
+        font-size: 65%;
+
+    }
+}
