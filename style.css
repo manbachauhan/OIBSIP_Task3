@@ -66,15 +66,15 @@ margin-top: 1.5rem;
 
 @media screen and (min-width: 900px) {
     html{
-        font-size: 65%;
+        font-size: 62%;
          /* 1rem 16px 100%
          10 */
      
     }
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 600px) {
     html{
-        font-size: 65%;
+        font-size: 62%;
 
     }
 }
